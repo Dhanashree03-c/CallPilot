@@ -25,8 +25,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://call-pilot-rho.vercel.app",
         "http://localhost:5173",
-        "https://callpilot-w4et.onrender.com",
     ],
     allow_credentials=False,
     allow_methods=["*"],
