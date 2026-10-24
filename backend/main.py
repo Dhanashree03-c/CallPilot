@@ -26,7 +26,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://YOUR-ACTUAL-VERCEL-DOMAIN",
+        "https://callpilot-w4et.onrender.com",
     ],
     allow_credentials=False,
     allow_methods=["*"],
